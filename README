@@ -1,0 +1,20 @@
+This project includes code examples and results for the following paper. Please cite the paper if you use them.
+
+    S. Kanno, H. Nakamura, T. Kobayashi, S. Gocho, M. Hatanaka, N. Yamamoto, and Q. Gao, Quantum Computing Quantum Monte Carlo with Hybrid Tensor Network for Electronic Structure Calculations, Npj Quantum Information 10, 1 (2024).
+
+"examples" directry includes the code examples. 
+The codes starts from "1", "2", "3", and "_" are the VQE, overlap, QMC, and background codes. 
+
+"results" directry includes the results in the paper.
+
+Tested version
+Python                        3.9.13
+qiskit                        0.44.1
+qiskit-aer                    0.10.4
+qiskit-ibmq-provider          0.19.2
+qiskit-nature                 0.4.5
+qiskit-terra                  0.25.1
+numpy                         1.23.1
+scipy                         1.9.0
+joblib                        1.1.0
+matplotlib                    3.5.2
